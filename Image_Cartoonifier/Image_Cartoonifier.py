@@ -22,7 +22,6 @@ def upload():
     ImagePath = easygui.fileopenbox()
     cartoonify(ImagePath)
 
-
 def cartoonify(ImagePath):
     # read the image
     originalmage = cv2.imread(ImagePath)
